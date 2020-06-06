@@ -1,5 +1,5 @@
- import 'package:flutter/material.dart';
-import 'package:flutter/rendering.dart';
+import 'package:flutter/material.dart';
+import 'package:htn2020/screens/authenticate/sign_in.dart';
 
  class Authenticate extends StatefulWidget {
    @override
@@ -10,7 +10,7 @@ import 'package:flutter/rendering.dart';
    @override 
    Widget build(BuildContext context){
      return Container(
-       child: Text('authenticate')
+       child: SignIn(),
      );
    }
- }
+ }  
