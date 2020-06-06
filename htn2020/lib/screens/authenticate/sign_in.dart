@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:htn2020/services/auth.dart';
 
 class SignIn extends StatefulWidget {
   @override
@@ -6,6 +7,9 @@ class SignIn extends StatefulWidget {
 }
 
 class _SignInState extends State<SignIn > {
+
+  final AuthService _auth = AuthService();
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -20,7 +24,13 @@ class _SignInState extends State<SignIn > {
         child: RaisedButton(
           child: Text('Sign in anonymously'),
           onPressed: () async {
-
+            dynamic signInResult = await _auth.signInAnon();
+            if (signInResult == null) {
+              print('An error occurred during sign in');
+            } else {
+              print('Sign in successful');
+              print(signInResult);
+            }
           }
         )
       )
