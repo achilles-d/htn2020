@@ -10,6 +10,14 @@ class AuthService {
     return user != null ? User(uid: user.uid) : null; 
   }
 
+  //Auth change user stream
+  Stream<User> get user{
+    //Grab user from Firebase
+    return _auth.onAuthStateChanged
+      .map(_userFromFirebaseUser);
+      //.map((FirebaseUser user) => _userFromFirebaseUser(user));
+  }
+
   //Sign in anonymously
   Future signInAnon() async {
     try{
