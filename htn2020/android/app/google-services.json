@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "969387587415",
+    "firebase_url": "https://htn2020-b524a.firebaseio.com",
+    "project_id": "htn2020-b524a",
+    "storage_bucket": "htn2020-b524a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:969387587415:android:4279db687f98db42947012",
+        "android_client_info": {
+          "package_name": "org.unsupervisedlearners.gyft"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "969387587415-onfjjvdmrumee6ij89ql0qv4h48pde1i.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB9uEOtstrVOCYIrx88HWMf4FEO0FepNP0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "969387587415-onfjjvdmrumee6ij89ql0qv4h48pde1i.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
