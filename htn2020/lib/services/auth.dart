@@ -1,15 +1,21 @@
 import 'package:firebase_auth/firebase_auth.dart';
+import 'package:htn2020/models/user.dart';
 
 class AuthService {
 
   final FirebaseAuth _auth = FirebaseAuth.instance; 
+
+  //Create a use object based on FireBaseUser
+  User _userFromFirebaseUser(FirebaseUser user){
+    return user != null ? User(uid: user.uid) : null; 
+  }
 
   //Sign in anonymously
   Future signInAnon() async {
     try{
       AuthResult signInResult = await _auth.signInAnonymously(); 
       FirebaseUser user = signInResult.user; 
-      return user; 
+      return _userFromFirebaseUser(user);
     } catch (err) {
       print(err.toString());
       return null; 

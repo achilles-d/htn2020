@@ -29,7 +29,7 @@ class _SignInState extends State<SignIn > {
               print('An error occurred during sign in');
             } else {
               print('Sign in successful');
-              print(signInResult);
+              print(signInResult.uid);
             }
           }
         )
