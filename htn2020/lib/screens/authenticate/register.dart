@@ -2,6 +2,10 @@ import 'package:flutter/material.dart';
 import 'package:htn2020/services/auth.dart';
 
 class Register extends StatefulWidget {
+
+  final Function toggleView;
+  Register({ this.toggleView });
+
   @override
   _RegisterState createState() => _RegisterState();
 }
@@ -9,6 +13,7 @@ class Register extends StatefulWidget {
 class _RegisterState extends State<Register> {
 
   final AuthService _auth = AuthService();
+  final _formKey = GlobalKey<FormState>(); 
 
   //Text field state 
   String email = '';
@@ -22,14 +27,25 @@ class _RegisterState extends State<Register> {
         backgroundColor: Colors.blue[400],
         elevation: 0.0,
         title: Text('Register for Gyft'),
+        actions: <Widget>[
+          FlatButton.icon(
+            icon: Icon(Icons.person),
+            label: Text('Login'),
+            onPressed: () {
+              widget.toggleView();
+            }
+          )
+        ]
       ),
       body: Container(
         padding: EdgeInsets.symmetric(vertical: 20.0, horizontal: 50.0),
         child: Form(
+          key: _formKey,  //associate key with form key 
           child: Column(
             children: <Widget>[
               SizedBox(height: 20.0),
               TextFormField(
+                validator: (val) => val.isEmpty ? 'Enter a valid email address' : null,
                 onChanged: (val){
                   setState(() => email = val);
                 },
@@ -37,6 +53,7 @@ class _RegisterState extends State<Register> {
               SizedBox(height: 20.0),
               TextFormField(
                 obscureText: true,
+                validator: (val) => val.length < 6 ? 'Enter a password at least 6 characters long' : null,
                 onChanged: (val) {
                   setState(() => password = val);
                 }
@@ -52,8 +69,11 @@ class _RegisterState extends State<Register> {
                 /*
                 Takes time, so make it an asynchronous task
                 */
-                print(email);
-                print(password);
+                if (_formKey.currentState.validate()) {
+                  //Only evaluates to true if all val == null
+                  print(email);
+                  print(password);
+                }
                 },
               )
             ]
