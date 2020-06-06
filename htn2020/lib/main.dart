@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:htn2020/screens/wrapper.dart';
 
 void main() {
   runApp(MyApp());
@@ -9,6 +10,9 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+      home: Wrapper(),
+
+    /*
       title: 'Flutter Demo',
       theme: ThemeData(
         // This is the theme of your application.
@@ -27,10 +31,13 @@ class MyApp extends StatelessWidget {
         visualDensity: VisualDensity.adaptivePlatformDensity,
       ),
       home: MyHomePage(title: 'Flutter Demo Home Page'),
+      */
+
     );
   }
 }
 
+/*
 class MyHomePage extends StatefulWidget {
   MyHomePage({Key key, this.title}) : super(key: key);
 
@@ -48,6 +55,7 @@ class MyHomePage extends StatefulWidget {
   @override
   _MyHomePageState createState() => _MyHomePageState();
 }
+
 
 class _MyHomePageState extends State<MyHomePage> {
   int _counter = 0;
@@ -114,4 +122,8 @@ class _MyHomePageState extends State<MyHomePage> {
       ), // This trailing comma makes auto-formatting nicer for build methods.
     );
   }
+  
+  
 }
+
+*/
