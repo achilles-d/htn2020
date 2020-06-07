@@ -1,5 +1,5 @@
 # Gyft
-> Empowering every community and small businesses to be financially agile.
+### Empowering every community and small businesses to be financially agile.
 #### Created by Achilles Dabrowski, Alex Xu, Franklin Boampong, and Steven Cheng
 #### Hack The Northeast 2020
 
