@@ -9,6 +9,11 @@ class Wrapper extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
 
+    /* 
+    TODO: Query database for collection of dictionaries
+    For each restaurant, create a gift card object with images, names,
+    etc. mapped 1:1
+    */
     final user = Provider.of<User>(context);
     GiftCard giftCard_1 = new GiftCard("Canape Restaurant", "https://4.bp.blogspot.com/-L9CtV6gR8GI/WtgKA619aEI/AAAAAAAAF9c/CubtyZE94o076qCShJN_D2bdNiHoeIRxACEwYBhgL/s1600/cool%2Bprofile%2Bimages.png",
      "Campus Drive", "000-000-0000");
