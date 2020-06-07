@@ -3,21 +3,6 @@
 #### Created by Achilles Dabrowski, Alex Xu, Franklin Boampong, and Steven Cheng
 #### Hack The Northeast 2020
 
-## GitHub Repository Breakdown
-
-
-
-### Executive summary
-Hack the Northeast 2020
-
-Name: Gyft
-
-Mission Statement: Empowering every community and small businesses to be financially agile.
-
-Founders: Achilles Dabrowski, Alex Xu, Franklin Boampong, Steven Cheng
-
-### Product / Services
-
 #### Purpose and Value:
 
 Gyft is a platform that empowers communities by connecting local businesses with community members and potential customers. It allows businesses to start selling online Gift Card/Certificates for their business quickly, intuitively, and affordably, even without past experience. 
@@ -46,6 +31,9 @@ According to the US Small Business Administration, there are 30.7 million small 
 #### Technology:
 
 The Gyft platform consists of mobile applications (Android and iOS) built using Flutter and Firebase/Google Cloud Services. Web browser-based applications are in the works.
+
+## GitHub Repository Breakdown
+
 
 ## Challenges we ran into
 
