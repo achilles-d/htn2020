@@ -23,6 +23,7 @@ class CardItem extends StatelessWidget{
 
   Widget getListView() {
     var listView = ListView.builder(
+      itemCount: this.myCardList.length,
       itemBuilder: (context, index){
         GiftCard tempGiftCard = this.myCardList[index];
           return ListTile(
@@ -39,15 +40,4 @@ class CardItem extends StatelessWidget{
     );
     return listView;
   }
-                
-  // Scaffold cellTapedFunction(GiftCard tempGiftCard) {
-  //     return new Scaffold(
-  //     appBar: new AppBar(
-  //       title: new Text("Gift Cards Available"),
-  //       backgroundColor: Colors.blueAccent,
-  //     ),
-  //     body: CardScreen(),
-  //   );
-  // }
-
 }

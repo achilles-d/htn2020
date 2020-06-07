@@ -24,7 +24,7 @@ class _RegisterState extends State<Register> {
   Widget build(BuildContext context) {
     return Scaffold(
       backgroundColor : Colors.blue[100],
-      appBar: AppBar(
+      appBar: AppBar
         backgroundColor: Colors.blue[400],
         elevation: 0.0,
         title: Text('Register for Gyft'),

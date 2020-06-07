@@ -27,7 +27,7 @@ class Home extends StatelessWidget {
           )
         ],
       ),
-      body: new CardItem(this.myCardList));
+      body: new CardItem(this.myCardList))
   }
 
    Home(List<GiftCard> myCardList){
