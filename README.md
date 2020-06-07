@@ -77,10 +77,19 @@ We are very proud of being able to working together and delegate different tasks
 ## What's next for Gyft
 For the next steps, we hope to merge functionality with UI for our app and further hone the small mistakes that still exists in our current iteration. We also want to market our product to investors and consumers so that we are able to empower every community and small businesses to be financially agile.
 
-![Welcome Aboard](https://github.com/achilles-d/htn2020/blob/master/assets/iphone-11-pro-mockup-scene-copy%402x.png "Welcome Aboard")
+![Welcome Aboard](https://github.com/achilles-d/htn2020/blob/master/assets/iphone-x-mockup-scene.png "Welcome Aboard")
 
 ## Sources:
 [1]https://www.costowl.com/b2b/gift-card-custom-program-cost.html#:~:text=Depending%20on%20how%20many%20gift,%24300%20to%20%24400%20per%20location.
 [2]https://cdn.advocacy.sba.gov/wp-content/uploads/2019/04/23142719/2019-Small-Business-Profiles-US.pdf
 [3]https://www.softwareadvice.com/resources/gift-cards-for-small-business/#holiday
 [4]https://www.npr.org/2020/03/20/818797729/how-buying-a-gift-card-can-help-a-small-business
+
+## Graphics and Image Credits:
+https://stories.freepik.com/illustration/bankruptcy/pana
+https://stories.freepik.com/illustration/queue/pana
+https://stories.freepik.com/illustration/online-shopping/pana
+https://stories.freepik.com/illustration/make-it-rain/pana
+https://www.theverge.com/interface/2020/4/14/21219289/apple-google-contact-tracing-app-android-ios-pros-cons-quarantine-testing
+https://www.underconsideration.com/brandnew/archives/android_2014_logo.png
+https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.developersforhire.com%2Fdatabase%2F&psig=AOvVaw0wVW7u-nAr7kmQRUg-_omk&ust=1591629511995000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCMj-g5OA8OkCFQAAAAAdAAAAABAg
