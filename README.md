@@ -25,6 +25,14 @@ Gyft also empowers community members to continue to patronize and support their 
 ## How to Use
 ![Gyft Screens](https://github.com/achilles-d/htn2020/blob/master/assets/Screens.png "Gyft Screens")
 
+1. Sign up/Registration
+2. Account Confirmation
+3. Select Category
+4. Explore Businesses in Your Community
+5. Customizer Gift Card
+6. Purchase Gift Card
+7. Use Gift Card
+
 ## Marketing and Audience
 Currently, there is no alternative solution on the market that makes it easy and affordable for small business owners to create their own gift card program targeting their local communities. Furthermore, it is difficult for community members to discover small businesses in their area that need their support. Gyft fills in this gap in the market.
 
