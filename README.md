@@ -12,7 +12,7 @@ The Github repository is separated into two Flutter apps.
 
 ## Links
 - [Video Demo/Presentation]()
-- [Figma Wireframe]()
+- [Figma Wireframe](https://www.figma.com/proto/YHlCnM1GUzLq3d9ptb9o6L/Gyft-Wireframe-DEMO?scaling=scale-down&node-id=1%3A4)
 - [Slide Deck](https://github.com/achilles-d/htn2020/blob/master/Slide%20Deck.pdf)
 - [Business Plan](https://github.com/achilles-d/htn2020/blob/master/Business%20Plan.pdf)
 
