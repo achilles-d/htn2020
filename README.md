@@ -11,9 +11,10 @@ The Github repository is separated into two Flutter apps.
 - gyft-1: This is the Flutter app with the UI interface coded up as seen from the Figma wireframe. Functionalities include navigation/routing, buttons, and input data. This is prototyped on iOS.
 
 ## Links
-Video Demo/Presentation:
-Slide Deck:
-Business Plan:
+[Video Demo/Presentation]()
+[Figma Wireframe]()
+[Slide Deck](https://github.com/achilles-d/htn2020/blob/master/Slide%20Deck.pdf)
+[Business Plan](https://github.com/achilles-d/htn2020/blob/master/Business%20Plan.pdf)
 
 ## Inspiration and Problem Statement
 The COVID-19 pandemic has severely disrupted how small business across the US operate and generate revenue. Many small businesses are struggling to stay afloat in this economy. Many leaders and media outlets have advocated for purchasing gift cards from small businesses in an effort to alleviate these pressures. As Forbes put it, "buying a gift card puts money in the hands of a small business immedaitely."
