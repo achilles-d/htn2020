@@ -3,6 +3,11 @@
 #### Created by Achilles Dabrowski, Alex Xu, Franklin Boampong, and Steven Cheng
 #### Hack The Northeast 2020
 
+## GitHub Repository Breakdown
+The Github repository is separated into two Flutter apps.
+- htn2020: This is the Flutter app with functionalities such as Log In, Sign Up/Register, and Querying data from the Firebase. Essentially, this is the backend component of the Flutter app. This is prototyped on Android (as half of our team used Android simulators).
+- gyft-1: This is the Flutter app with the UI interface coded up as seen from the Figma wireframe. Functionalities include navigation/routing, buttons, and input data. This is prototyped on iOS.
+
 ## Purpose and Value
 Gyft is a platform that empowers communities by connecting local businesses with community members and potential customers. It allows businesses to start selling online Gift Card/Certificates for their business quickly, intuitively, and affordably, even without past experience. 
 
@@ -27,11 +32,6 @@ According to the US Small Business Administration, there are 30.7 million small 
 
 ## Technology
 The Gyft platform consists of mobile applications (Android and iOS) built using Flutter and Firebase/Google Cloud Services. In developing the mobile application, we also used Figma for wireframing.
-
-## GitHub Repository Breakdown
-The Github repository is separated into two Flutter apps.
-- htn2020: This is the Flutter app with functionalities such as Log In, Sign Up/Register, and Querying data from the Firebase. Essentially, this is the backend component of the Flutter app. This is prototyped on Android (as half of our team used Android simulators).
-- gyft-1: This is the Flutter app with the UI interface coded up as seen from the Figma wireframe. Functionalities include navigation/routing, buttons, and input data. This is prototyped on iOS.
 
 ## Challenges we ran into
 Challenges we ran into fell into two large groups:
