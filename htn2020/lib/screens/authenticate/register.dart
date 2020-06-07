@@ -18,13 +18,14 @@ class _RegisterState extends State<Register> {
   //Text field state 
   String email = '';
   String password = '';
+  String zipCode = '';
   String errMsg = '';
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       backgroundColor : Colors.blue[100],
-      appBar: AppBar
+      appBar: AppBar(
         backgroundColor: Colors.blue[400],
         elevation: 0.0,
         title: Text('Register for Gyft'),
@@ -46,6 +47,9 @@ class _RegisterState extends State<Register> {
             children: <Widget>[
               SizedBox(height: 20.0),
               TextFormField(
+                decoration: InputDecoration(
+                  hintText: 'Username'
+                ),
                 validator: (val) => val.isEmpty ? 'Enter a valid email address. If it is valid, it has already been registered' : null,
                 onChanged: (val){
                   setState(() => email = val);
@@ -53,10 +57,24 @@ class _RegisterState extends State<Register> {
               ),
               SizedBox(height: 20.0),
               TextFormField(
+                decoration: InputDecoration(
+                  hintText: 'Password'
+                ),
                 obscureText: true,
                 validator: (val) => val.length < 6 ? 'Enter a password at least 6 characters long' : null,
                 onChanged: (val) {
                   setState(() => password = val);
+                }
+              ),
+              SizedBox(height: 20.0),
+              TextFormField(
+                decoration: InputDecoration(
+                  hintText: 'ZIP code'
+                ),
+                obscureText: true,
+                validator: (val) => (val.length < 6) && (val.length > 6) ? 'Enter a valid ZIP code' : null,
+                onChanged: (val) {
+                  setState(() => zipCode = val);
                 }
               ),
               SizedBox(height: 20.0),
