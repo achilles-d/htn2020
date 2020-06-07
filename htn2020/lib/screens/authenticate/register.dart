@@ -19,6 +19,7 @@ class _RegisterState extends State<Register> {
   String email = '';
   String password = '';
   String zipCode = '';
+  String name = '';
   String errMsg = '';
 
   @override
@@ -69,6 +70,17 @@ class _RegisterState extends State<Register> {
               SizedBox(height: 20.0),
               TextFormField(
                 decoration: InputDecoration(
+                  hintText: 'Nane'
+                ),
+                obscureText: true,
+                validator: (val) => val == '' ? 'Enter a valid name' : null,
+                onChanged: (val) {
+                  setState(() => name = val);
+                }
+              ),
+              SizedBox(height: 20.0),
+              TextFormField(
+                decoration: InputDecoration(
                   hintText: 'ZIP code'
                 ),
                 obscureText: true,
@@ -88,7 +100,7 @@ class _RegisterState extends State<Register> {
                 //Takes time, so make it an asynchronous task
                 if (_formKey.currentState.validate()) {
                   //Only evaluates to true if all val == null
-                  dynamic result = await _auth.registerWithEmailAndPwd(email, password);
+                  dynamic result = await _auth.registerWithEmailAndPwd(email, password, zipCode, name);
                   if(result == null){
                     setState(() => errMsg = 'Enter a valid email address');
                   }
