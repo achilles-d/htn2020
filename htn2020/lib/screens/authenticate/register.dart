@@ -46,7 +46,7 @@ class _RegisterState extends State<Register> {
             children: <Widget>[
               SizedBox(height: 20.0),
               TextFormField(
-                validator: (val) => val.isEmpty ? 'Enter a valid email address' : null,
+                validator: (val) => val.isEmpty ? 'Enter a valid email address. If it is valid, it has already been registered' : null,
                 onChanged: (val){
                   setState(() => email = val);
                 },
