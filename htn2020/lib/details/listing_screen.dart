@@ -23,10 +23,16 @@ import 'package:htn2020/models/gift_card.dart';
               ),
             ),
             SliverFixedExtentList(
-              itemExtent: 20,
+              itemExtent: 60,
               delegate: SliverChildListDelegate([
-                  Text(this.giftCard.getAddress()),
-                  Text(this.giftCard.getContact()),
+                  Text(
+                    this.giftCard.getAddress(),
+                    style: TextStyle(fontSize: 40),
+                  ),
+                  Text(
+                    this.giftCard.getContact(),
+                    style: TextStyle(fontSize: 40),
+                  ),
               ]),
             )
           ],
