@@ -8,6 +8,13 @@ The Github repository is separated into two Flutter apps.
 - htn2020: This is the Flutter app with functionalities such as Log In, Sign Up/Register, and Querying data from the Firebase. Essentially, this is the backend component of the Flutter app. This is prototyped on Android (as half of our team used Android simulators).
 - gyft-1: This is the Flutter app with the UI interface coded up as seen from the Figma wireframe. Functionalities include navigation/routing, buttons, and input data. This is prototyped on iOS.
 
+## Inspiration and Problem Statement
+The COVID-19 pandemic has severely disrupted how small business across the US operate and generate revenue. Many small businesses are struggling to stay afloat in this economy. Many leaders and media outlets have advocated for purchasing gift cards from small businesses in an effort to alleviate these pressures. As Forbes put it, "buying a gift card puts money in the hands of a small business immedaitely."
+
+However, Gift Card Systems are difficult to set up, and costly to maintain. In addition, many community members don't know that their local businesses offer gift cards, and purchasing gift cards requires effort and in many cases, in-person interaction.
+
+This presents a unique challenge and opportunity space to be addressed.
+
 ## Purpose and Value
 Gyft is a platform that empowers communities by connecting local businesses with community members and potential customers. It allows businesses to start selling online Gift Card/Certificates for their business quickly, intuitively, and affordably, even without past experience. 
 
