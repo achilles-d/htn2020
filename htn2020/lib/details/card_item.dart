@@ -31,7 +31,7 @@ class CardItem extends StatelessWidget{
               onTap: (){
                 Navigator.push(
                       context,
-                       MaterialPageRoute(builder: (context) => CardScreen()),
+                       MaterialPageRoute(builder: (context) => CardScreen(tempGiftCard)),
                 );
               },
               trailing: Icon(Icons.arrow_right),
