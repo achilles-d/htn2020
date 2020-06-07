@@ -64,7 +64,7 @@ In layman terms, the main focus of the project was making as much use of the dat
 
 See diagram below for how the apps workflow functions on the high level.
 
-![Tech Workflow](https://github.com/achilles-d/htn2020/blob/master/assets/iphone-11-pro-mockup-scene-copy%402x.png "Tech Workflow")
+![Tech Workflow](https://github.com/achilles-d/htn2020/blob/master/assets/Technology.png "Tech Workflow")
 
 ## Challenges we ran into
 Challenges we ran into fell into two large groups:
