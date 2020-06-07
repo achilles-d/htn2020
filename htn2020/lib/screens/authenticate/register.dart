@@ -18,6 +18,8 @@ class _RegisterState extends State<Register> {
   //Text field state 
   String email = '';
   String password = '';
+  String zipCode = '';
+  String name = '';
   String errMsg = '';
 
   @override
@@ -46,6 +48,9 @@ class _RegisterState extends State<Register> {
             children: <Widget>[
               SizedBox(height: 20.0),
               TextFormField(
+                decoration: InputDecoration(
+                  hintText: 'Username'
+                ),
                 validator: (val) => val.isEmpty ? 'Enter a valid email address. If it is valid, it has already been registered' : null,
                 onChanged: (val){
                   setState(() => email = val);
@@ -53,10 +58,35 @@ class _RegisterState extends State<Register> {
               ),
               SizedBox(height: 20.0),
               TextFormField(
+                decoration: InputDecoration(
+                  hintText: 'Password'
+                ),
                 obscureText: true,
                 validator: (val) => val.length < 6 ? 'Enter a password at least 6 characters long' : null,
                 onChanged: (val) {
                   setState(() => password = val);
+                }
+              ),
+              SizedBox(height: 20.0),
+              TextFormField(
+                decoration: InputDecoration(
+                  hintText: 'Nane'
+                ),
+                obscureText: true,
+                validator: (val) => val == '' ? 'Enter a valid name' : null,
+                onChanged: (val) {
+                  setState(() => name = val);
+                }
+              ),
+              SizedBox(height: 20.0),
+              TextFormField(
+                decoration: InputDecoration(
+                  hintText: 'ZIP code'
+                ),
+                obscureText: true,
+                validator: (val) => (val.length < 6) && (val.length > 6) ? 'Enter a valid ZIP code' : null,
+                onChanged: (val) {
+                  setState(() => zipCode = val);
                 }
               ),
               SizedBox(height: 20.0),
@@ -70,7 +100,7 @@ class _RegisterState extends State<Register> {
                 //Takes time, so make it an asynchronous task
                 if (_formKey.currentState.validate()) {
                   //Only evaluates to true if all val == null
-                  dynamic result = await _auth.registerWithEmailAndPwd(email, password);
+                  dynamic result = await _auth.registerWithEmailAndPwd(email, password, zipCode, name);
                   if(result == null){
                     setState(() => errMsg = 'Enter a valid email address');
                   }
