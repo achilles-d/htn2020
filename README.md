@@ -60,9 +60,9 @@ The Gyft platform consists of mobile applications (Android and iOS) built using 
 
 The main back end model was abstracted as an inheritance infrqastructure. So the children of this inheritence model all had a common thing i.e. they had a collection of Gift Card type object. This made it very easy to code in flutter and firebase as each collection was also a collection in the firebase database. The modularity if having a Gift Card Object was that the object could also have it's own section in the database and that made it really easy to parse in Dart Code.
 
-In layman terms, the main focus of the project was making as much use of the database or clous so as to make the infrastructure on front end as little as possible. Flutter was really helpful as navigating to different screens supprted our development intent. The good news was that we did all this 36 hours and got a great MVP to showcase.
+In layman terms, the main focus of the project was making as much use of the database or cloud so as to make the infrastructure on front end as little as possible. Flutter was really helpful as navigating to different screens supprted our development intent. The good news was that we did all this 36 hours and got a great MVP to showcase.
 
-See diagram below for how the apps workflow functions on the high level.
+See diagram below for how the apps workflow functions on the high level. Firebase stores consumer credentials, and participating businesses list is populated after contacting Firebase.
 
 ![Tech Workflow](https://github.com/achilles-d/htn2020/blob/master/assets/Technology.png "Tech Workflow")
 
