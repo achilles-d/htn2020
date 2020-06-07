@@ -11,7 +11,8 @@ The Github repository is separated into two Flutter apps.
 - gyft-1: This is the Flutter app with the UI interface coded up as seen from the Figma wireframe. Functionalities include navigation/routing, buttons, and input data. This is prototyped on iOS.
 
 ## Links
-- [Video Demo/Presentation]()
+- [Video Demo/Presentation](https://www.youtube.com/watch?v=V-vPwXw4UMI&feature=emb_title)
+- [DevPost](https://devpost.com/software/gyft)
 - [Figma Wireframe](https://www.figma.com/proto/YHlCnM1GUzLq3d9ptb9o6L/Gyft-Wireframe-DEMO?scaling=scale-down&node-id=1%3A4)
 - [Slide Deck](https://github.com/achilles-d/htn2020/blob/master/Slide%20Deck.pdf)
 - [Business Plan](https://github.com/achilles-d/htn2020/blob/master/Business%20Plan.pdf)
