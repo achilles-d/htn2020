@@ -10,6 +10,11 @@ The Github repository is separated into two Flutter apps.
 - htn2020: This is the Flutter app with functionalities such as Log In, Sign Up/Register, and Querying data from the Firebase. Essentially, this is the backend component of the Flutter app. This is prototyped on Android (as half of our team used Android simulators).
 - gyft-1: This is the Flutter app with the UI interface coded up as seen from the Figma wireframe. Functionalities include navigation/routing, buttons, and input data. This is prototyped on iOS.
 
+## Links
+Video Demo/Presentation:
+Slide Deck:
+Business Plan:
+
 ## Inspiration and Problem Statement
 The COVID-19 pandemic has severely disrupted how small business across the US operate and generate revenue. Many small businesses are struggling to stay afloat in this economy. Many leaders and media outlets have advocated for purchasing gift cards from small businesses in an effort to alleviate these pressures. As Forbes put it, "buying a gift card puts money in the hands of a small business immedaitely."
 
@@ -58,6 +63,8 @@ The main back end model was abstracted as an inheritance infrqastructure. So the
 In layman terms, the main focus of the project was making as much use of the database or clous so as to make the infrastructure on front end as little as possible. Flutter was really helpful as navigating to different screens supprted our development intent. The good news was that we did all this 36 hours and got a great MVP to showcase.
 
 See diagram below for how the apps workflow functions on the high level.
+
+![Tech Workflow](https://github.com/achilles-d/htn2020/blob/master/assets/Technology.png "Tech Workflow")
 
 ## Challenges we ran into
 Challenges we ran into fell into two large groups:
