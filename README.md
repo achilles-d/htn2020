@@ -1,3 +1,5 @@
+![Gyft Banner](https://github.com/achilles-d/htn2020/blob/master/assets/iphone-11-pro-mockup-scene-copy%402x.png "Gyft Banner")
+
 # Gyft
 ### *Empowering every community and small businesses to be financially agile.*
 #### Created by Achilles Dabrowski, Alex Xu, Franklin Boampong, and Steven Cheng
