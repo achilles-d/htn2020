@@ -22,6 +22,9 @@ Gyft enables small businesses to be financially agile during tumultuous times of
 
 Gyft also empowers community members to continue to patronize and support their local businesses, even when there is a temporary shutdown due to coronavirus. It also draws family and friends closer together through gifts for special occasions.
 
+## How to Use
+![Gyft Screens](https://github.com/achilles-d/htn2020/blob/master/assets/Screens.png "Gyft Screens")
+
 ## Marketing and Audience
 Currently, there is no alternative solution on the market that makes it easy and affordable for small business owners to create their own gift card program targeting their local communities. Furthermore, it is difficult for community members to discover small businesses in their area that need their support. Gyft fills in this gap in the market.
 
