@@ -1,4 +1,4 @@
-mport 'package:flutter/material.dart';
+import 'package:flutter/material.dart';
 import 'package:htn2020/screens/authenticate/sign_in.dart';
 import 'package:htn2020/screens/authenticate/register.dart';
 
