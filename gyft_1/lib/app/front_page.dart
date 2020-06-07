@@ -35,13 +35,12 @@ class FrontPage extends StatelessWidget{
                   children: <Widget>[
                     new TextFormField(
                       validator: (val) => val.isEmpty ? 'Enter a business name' : null,
-                      onChanged: (val) {
+                      onFieldSubmitted: (val) {
                         Navigator.push(
                           context,
-                          MaterialPageRoute(builder: (context) => Search())
+                          MaterialPageRoute(builder: (context) => Search()),
                         );
                       },
-
                       decoration: InputDecoration(
                         labelText: 'Search for Businesses',
                         fillColor: Colors.white,
@@ -55,10 +54,10 @@ class FrontPage extends StatelessWidget{
                     Container(
                       child: new TextFormField(
                         validator: (val) => val.isEmpty ? 'Enter a friend name' : null,
-                        onChanged: (val) {
+                        onFieldSubmitted: (val) {
                           Navigator.push(
                             context,
-                              MaterialPageRoute(builder: (context) => Search())
+                              MaterialPageRoute(builder: (context) => Search()),
                           );
                         },
                         decoration: InputDecoration(
