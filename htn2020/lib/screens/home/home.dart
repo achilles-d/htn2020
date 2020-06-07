@@ -1,7 +1,11 @@
 import 'package:flutter/material.dart';
+import 'package:htn2020/details/card_item.dart';
+import 'package:htn2020/models/gift_card.dart';
 import 'package:htn2020/services/auth.dart';
 
 class Home extends StatelessWidget { 
+
+  List<GiftCard> myCardList;
 
   final AuthService _auth = AuthService();
 
@@ -22,7 +26,11 @@ class Home extends StatelessWidget {
             label: Text('logout')
           )
         ],
-      )
-    );
+      ),
+      body: new CardItem(this.myCardList))
+  }
+
+   Home(List<GiftCard> myCardList){
+      this.myCardList = myCardList;
   }
 }

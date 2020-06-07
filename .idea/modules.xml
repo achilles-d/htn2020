@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/htn2020/android/android.iml" filepath="$PROJECT_DIR$/htn2020/android/android.iml" />
+      <module fileurl="file://$PROJECT_DIR$/htn2020/ios/.symlinks/plugins/firebase_core/android/android1.iml" filepath="$PROJECT_DIR$/htn2020/ios/.symlinks/plugins/firebase_core/android/android1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/htn2020/ios/.symlinks/plugins/cloud_firestore/android/android2.iml" filepath="$PROJECT_DIR$/htn2020/ios/.symlinks/plugins/cloud_firestore/android/android2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/htn2020/ios/.symlinks/plugins/firebase_auth/android/android3.iml" filepath="$PROJECT_DIR$/htn2020/ios/.symlinks/plugins/firebase_auth/android/android3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/htn2020/ios/.symlinks/plugins/cloud_firestore/example/android/app/src/androidTest/androidTest.iml" filepath="$PROJECT_DIR$/htn2020/ios/.symlinks/plugins/cloud_firestore/example/android/app/src/androidTest/androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/htn2020/ios/.symlinks/plugins/firebase_core/example/android/app/src/androidTest/androidTest1.iml" filepath="$PROJECT_DIR$/htn2020/ios/.symlinks/plugins/firebase_core/example/android/app/src/androidTest/androidTest1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/htn2020/ios/.symlinks/plugins/cloud_firestore_web/cloud_firestore_web.iml" filepath="$PROJECT_DIR$/htn2020/ios/.symlinks/plugins/cloud_firestore_web/cloud_firestore_web.iml" />
+      <module fileurl="file://$PROJECT_DIR$/htn2020/android/app/src/debug/debug.iml" filepath="$PROJECT_DIR$/htn2020/android/app/src/debug/debug.iml" />
+      <module fileurl="file://$PROJECT_DIR$/htn2020/ios/.symlinks/plugins/firebase_auth/example/example.iml" filepath="$PROJECT_DIR$/htn2020/ios/.symlinks/plugins/firebase_auth/example/example.iml" />
+      <module fileurl="file://$PROJECT_DIR$/htn2020/ios/.symlinks/plugins/firebase_auth_web/firebase_auth_web.iml" filepath="$PROJECT_DIR$/htn2020/ios/.symlinks/plugins/firebase_auth_web/firebase_auth_web.iml" />
+      <module fileurl="file://$PROJECT_DIR$/htn2020/ios/.symlinks/plugins/firebase_core_web/firebase_core_web.iml" filepath="$PROJECT_DIR$/htn2020/ios/.symlinks/plugins/firebase_core_web/firebase_core_web.iml" />
+      <module fileurl="file://$PROJECT_DIR$/htn2020/htn2020.iml" filepath="$PROJECT_DIR$/htn2020/htn2020.iml" />
+      <module fileurl="file://$PROJECT_DIR$/htn2020/ios/.symlinks/plugins/firebase_core/example/android/app/src/main/main.iml" filepath="$PROJECT_DIR$/htn2020/ios/.symlinks/plugins/firebase_core/example/android/app/src/main/main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/htn2020/ios/.symlinks/plugins/cloud_firestore/example/android/app/src/main/java/main1.iml" filepath="$PROJECT_DIR$/htn2020/ios/.symlinks/plugins/cloud_firestore/example/android/app/src/main/java/main1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/htn2020/ios/.symlinks/plugins/cloud_firestore/example/android/app/src/main/main2.iml" filepath="$PROJECT_DIR$/htn2020/ios/.symlinks/plugins/cloud_firestore/example/android/app/src/main/main2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/htn2020/android/app/src/profile/profile.iml" filepath="$PROJECT_DIR$/htn2020/android/app/src/profile/profile.iml" />
+    </modules>
+  </component>
+</project>
