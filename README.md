@@ -77,6 +77,8 @@ We are very proud of being able to working together and delegate different tasks
 ## What's next for Gyft
 For the next steps, we hope to merge functionality with UI for our app and further hone the small mistakes that still exists in our current iteration. We also want to market our product to investors and consumers so that we are able to empower every community and small businesses to be financially agile.
 
+![Welcome Aboard](https://github.com/achilles-d/htn2020/blob/master/assets/iphone-11-pro-mockup-scene-copy%402x.png "Welcome Aboard")
+
 ## Sources:
 [1]https://www.costowl.com/b2b/gift-card-custom-program-cost.html#:~:text=Depending%20on%20how%20many%20gift,%24300%20to%20%24400%20per%20location.
 [2]https://cdn.advocacy.sba.gov/wp-content/uploads/2019/04/23142719/2019-Small-Business-Profiles-US.pdf
