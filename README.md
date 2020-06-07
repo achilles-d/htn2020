@@ -86,10 +86,10 @@ For the next steps, we hope to merge functionality with UI for our app and furth
 [4]https://www.npr.org/2020/03/20/818797729/how-buying-a-gift-card-can-help-a-small-business
 
 ## Graphics and Image Credits:
-https://stories.freepik.com/illustration/bankruptcy/pana
-https://stories.freepik.com/illustration/queue/pana
-https://stories.freepik.com/illustration/online-shopping/pana
-https://stories.freepik.com/illustration/make-it-rain/pana
-https://www.theverge.com/interface/2020/4/14/21219289/apple-google-contact-tracing-app-android-ios-pros-cons-quarantine-testing
-https://www.underconsideration.com/brandnew/archives/android_2014_logo.png
-https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.developersforhire.com%2Fdatabase%2F&psig=AOvVaw0wVW7u-nAr7kmQRUg-_omk&ust=1591629511995000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCMj-g5OA8OkCFQAAAAAdAAAAABAg
+- https://stories.freepik.com/illustration/bankruptcy/pana
+- https://stories.freepik.com/illustration/queue/pana
+- https://stories.freepik.com/illustration/online-shopping/pana
+- https://stories.freepik.com/illustration/make-it-rain/pana
+- https://www.theverge.com/interface/2020/4/14/21219289/apple-google-contact-tracing-app-android-ios-pros-cons-quarantine-testing
+- https://www.underconsideration.com/brandnew/archives/android_2014_logo.png
+- https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.developersforhire.com%2Fdatabase%2F&psig=AOvVaw0wVW7u-nAr7kmQRUg-_omk&ust=1591629511995000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCMj-g5OA8OkCFQAAAAAdAAAAABAg
